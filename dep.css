@@ -1,0 +1,145 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: rgba(91, 124, 108, 0.9);
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header styles */
+  .header {
+    background: rgba(70, 96, 84, 0.9);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Department styles */
+  .departmentcs {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .departmentcs h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .departmentcs h3 {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .departmentcs p {
+    color: #666;
+  }
+  
+  /* Image styles */
+  .departmentcs-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  h1, h2, h3 {
+    color: rgba(58, 80, 69, 0.9); 
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* Faculty member styles */
+  .faculty-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .faculty-member h2 {
+    margin-top: 0;
+  }
+  
+  .faculty-member img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* Class for images of the department members*/
+  .departmentcs-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  
+  /* Styling for the names of the doctors and engineers */
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  /* Department common styles */
+  .departmentj, .departmenteng, .departmentbus {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2, h3 {
+    color: #333; 
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* Image styles*/
+  .departmentj-image, .departmenteng-image, .departmentbus-image {
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    margin-left: 20px ;
+    border-radius: 2px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Footer styles */
+  .footer {
+    background-color: rgba(58, 80, 69, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  
